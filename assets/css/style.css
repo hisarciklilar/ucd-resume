@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    margin: 0
+}
+
+.logo {
+    background: url(../images/rosie.jpg);
+    background-position: center;
+    /* image not to repeat */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    /* adding some effects */
+    transition: all .5s ease-in-out;
+    /* make sure it runs on different browsers */
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
